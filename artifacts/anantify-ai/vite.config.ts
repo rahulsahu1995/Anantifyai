@@ -5,7 +5,6 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig(async ({ mode }) => {
-  // Yeh line aapki local .env file se variables ko system mein push karegi
   const env = loadEnv(mode, path.resolve(import.meta.dirname), "");
   
   const rawPort = env.PORT || process.env.PORT || "5173"; 
