@@ -1,0 +1,61 @@
+
+Get in touch 
+
+Section 1 :- 
+​1. Top Header Area:
+​Background: Use a deep dark blue or navy gradient background.
+​Top Badge: A small, pill-shaped blue button/tag that says '📞 Don't hesitate to call'.
+​Main Headline: A large, bold white title: 'We Are Always Available', followed by a second line in a bright blue color: 'To Talk To You'.
+​Subtext: Below the headline, add a small description in grey text: 'Schedule a consultation or get in touch directly to discuss how our AI solutions can transform your business.'
+​2. Scheduling Widget (The Centerpiece):
+​Container: Create a large, white, rounded-corner card that 'floats' between the dark top section and the light bottom section (as seen in image_4.png). Give it a soft box-shadow.
+​Layout: A three-column layout inside the card:
+​Left Column (Info): Show the logo 'AN', 'Anantify AI', and event details like 'ai-consultation', '30 min', 'Call Video', and 'Asia/Kolkata'. Add a short bio about the session.
+​Middle Column (Calendar): A clean, functional date-picker calendar (showing days of the month). Highlight the current/selected date with a dark blue circle.
+​Right Column (Time Slots): A vertical list of scrollable time slots (e.g., 2:00pm, 2:30pm, 3:00pm).
+​Functionality: Use a library like react-calendar or build a custom UI that mimics a Calendly embed.
+​3. Hover & Interaction Effects:
+​Time Slots: When hovering over a time slot, the background should turn light blue with a dark blue border.
+​Calendar Dates: Dates should have a subtle scale-up effect and a grey background on hover.
+​Header Text: Add a slow 'float' animation to the scheduling card using framer-motion so it feels dynamic.
+​4. Navigation Bar (Top Right):
+​Include a clean nav menu at the very top: 'AI', 'Services', 'About', 'Blog'.
+​CTA Button: A 'GET IN TOUCH' button with a white outline that fills with blue on hover.
+​Overall Look: The transition from the dark header to the white scheduling card should be seamless and modern. Use Inter or a similar high-quality sans-serif font."
+
+
+
+
+
+
+Section 2 :-
+Left Column: 'Get In Touch With Us Today' Form
+​Headline: 'Get In Touch With Us Today' in a bold, dark grey font.
+​Subtext: 'Have a project in mind or looking for AI-driven solutions? Our team is here to help you transform your ideas into cutting-edge technology. Let's start the conversation.'
+​Input Fields: Create clean, labeled input fields for:
+​Your Name: Placeholder 'Type your name here'.
+​Phone no.: Placeholder 'Enter your phone no. here'.
+​Email Address: Placeholder 'Enter your e-mail here'.
+​Service Selection (Horizontal Icons): Under 'How can we help you?', create 5 selectable boxes with icons:
+​AI (Brain icon), Product Design (Notebook icon), Mobile Development (Smartphone icon), Web Development (Code icon), Cloud Solutions (Cloud icon).
+​Hover/Active Effect: Boxes should highlight with a blue border and light blue background when hovered or selected.
+​Textarea: 'Your Idea' field with placeholder 'Spill your idea here, we are happy to discuss'.
+​Submit Button: A full-width bright blue button with white text: 'Submit'.
+​2. Right Column: Sidebar Cards
+​Top Card (Talk With Our AI Agent): * Background: Solid blue.
+​Content: A small robot icon, title 'Talk With Our AI Agent', an input field 'Type your name here', and a white 'Call Now' button with a blue telephone icon.
+​Bottom Card (Visit Our Office):
+​Background: Solid dark black/grey.
+​Content: Title 'Visit Our Office' in white bold text.
+​Details: * LOCATION: '138/3, Govind Colony, Kila Road, Indore, M.P. Indore, Madhya Pradesh - 452001'
+​E-MAIL: 'hello@anantifyai.com'
+​PHONE: '+91 81208 71155'
+​Use small blue icons for location, email, and phone.
+​3. Styling & Animations:
+​Use a very light grey background for the entire section.
+​The cards on the right should have rounded corners and subtle shadows.
+​Inputs should have a light border that turns blue on focus.
+​Use lucide-react for all icons."
+
+
+

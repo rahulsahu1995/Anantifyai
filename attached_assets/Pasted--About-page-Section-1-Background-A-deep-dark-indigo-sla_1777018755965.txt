@@ -1,0 +1,43 @@
+
+
+About page 
+
+
+Section 1 :-
+​Background: A deep, dark indigo/slate blue (bg-slate-950).
+​Background Graphic: On the left side, integrate a large, faint, glowing white network/node diagram that fades out smoothly.
+​Content & Layout:
+​Badge: At the top center, a small blue rounded badge labeled "Our Team".
+​Main Heading: Below the badge, a large, centered white heading: "Meet Our Creative AI Minds".
+​Description: A short, centered paragraph about blending innovation with expertise to deliver great solutions.
+​Animations & Visual Effects (Key Features):
+​1. Infinite Rotation (Bottom Right):
+​Visual: In the bottom right corner, place a large, bold, stylized glowing blue arrow/shape.
+​Animation Requirement: This blue shape must have a continuous, infinite rotation animation (rotate-infinite).
+​Style: It should have a soft blue glow (box-shadow: 0 0 20px rgba(59, 130, 246, 0.5)).
+​2. Small Sparkle/Star:
+​Visual: Add a small white "sparkle" or "plus" icon near the central heading.
+​Animation: A subtle blinking/twinkling effect (opacity-pulse).
+​3. Team Card Hover:
+​Card Style: Design the main "Meet Our Creative AI Minds" container with rounded corners and a very subtle border, similar to a card.
+​Hover Effect: When the user hovers over this central text block, the overall container should lift slightly (-translate-y-2) and the background node graphic on the left should brighten.
+​Technical Requirements: Use Framer Motion for the infinite rotation (repeat: Infinity) and for the staggered entrance of the heading and description. Ensure the layout remains centered on mobile devices.
+
+
+
+Section 2: About Us Text
+​Background: Clean white background.
+​Content: A large paragraph starting with a bold blue highlighted phrase: 'Every great story starts with a purpose.'
+​Body Text: 'Ours began with the belief that businesses, no matter their size, deserve access to tools and strategies that can help them grow and thrive in today's fast-paced digital world. We've worked with startups finding their footing, enterprises scaling to new heights, and everything in between. Each step of the way, we've stayed true to our core: providing honest, innovative, and effective solutions.'
+​Styling: Use a clean sans-serif font, light gray color for the body text, and a blue accent border on the left side of the paragraph.
+
+ How We Work (Blue Card)
+​Background: A large container with rounded corners and a vibrant blue gradient background.
+​Layout: Two-column layout on desktop, single column on mobile.
+​Left Side (Features): * Feature 1: 'AI-Powered Innovation' with a white checkmark icon. Description: 'By harnessing advanced AI and ML, we craft innovative solutions that tackle complex business challenges with unmatched precision and speed.'
+​Feature 2: 'Expert-Driven Results' with a white checkmark icon. Description: 'With a blend of cutting-edge technology and seasoned industry experts, we deliver impactful results that save time, conserve resources, and drive lasting growth in a fast-evolving world.'
+​Styling: Use glassmorphism effect (semi-transparent white backgrounds) for the feature cards.
+​Right Side (Process Diagram): * Create a vertical 3D isometric stack of diamond/rhombus shapes.
+​The labels from bottom to top should be: Brief, Research, Sketch, Design, Present, Revise.
+​Add a subtle 'ripple' or circular wave effect around the base of the stack.
+​Overall Aesthetic: Professional, tech-oriented, and high-quality UI/UX."

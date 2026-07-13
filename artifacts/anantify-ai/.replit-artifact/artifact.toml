@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Anantify AI"
+version = "1.0.0"
+id = "artifacts/anantify-ai"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23592
+
+[services.development]
+run = "pnpm --filter @workspace/anantify-ai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/anantify-ai", "run", "build" ]
+publicDir = "artifacts/anantify-ai/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23592"
+BASE_PATH = "/"

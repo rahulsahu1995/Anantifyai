@@ -1,0 +1,97 @@
+
+Service page 
+
+
+SECTION 1: Tailored Services & Tech Playground
+​Header: > 	* Sub-heading: Small, centered text: "Discover What We Do".
+​Main Heading: Bold, centered: "Tailored Services for Your Needs".
+​Layout: The Bento Grid Container
+​Create a large rounded container with two main horizontal rows:
+​Top Row (Qualities & AI Feature):
+​Left Side (Core Qualities): A horizontal list of colorful, square icons/cards representing:
+​Reliability (Blue), Rocket/Speed (Dark Blue), Flexibility (Purple), Support (Light Purple), Affordability (Pink).
+​Subtext: Below these icons, add the label: "Our Top Notch Qualities".
+​Right Side (Feature Card): A larger card titled "Meet The AI Enthusiast" featuring a high-quality visual of a person wearing a VR/AI headset. Add a small blue badge labeled "The AI Experts".
+​Bottom Row (Tech Playground):
+​Left Side (Visual): A high-quality image of a hand holding a glowing lightbulb/idea icon with floating tech symbols.
+​Right Side (The Tech Stack): > 	* Title: "Playground for Big Boys out there."
+​Infinite Marquee Animation (The Ticker): Below the title, create a multi-row tech stack showcase using logos (Playwright, Flutter, Agora, Angular, Next.js, Golang, Python, MongoDB, MySQL, Stripe, Terraform, Cloudflare, etc.).
+​Animation Requirement: >     	1. Row A: Icons must move continuously from Right to Left. 2. Row B: Icons must move continuously from Left to Right.
+​Behavior: The icons should loop infinitely. On hover, the animation should pause or slow down to allow users to see the specific tools.
+​Animations & Styling:
+​Entrance: Use a "Zoom-in" or "Fade-up" effect for the entire bento grid as it enters the viewport.
+​Hover Effect: Each tech icon in the marquee should have a subtle grayscale-to-color transition or a slight pop-up effect on hover.
+​Glassmorphism: Apply a subtle blur and border-opacity to the internal grid cards to give it a premium, modern feel.
+​Technical Requirements: Use Framer Motion for the infinite marquee logic and staggered reveal of the top icons. Icons should be pulled from a library like Simple Icons or Lucide-react.
+
+
+Section 2:- 
+Layout: The Vertical Stepper
+​Structure: A two-column layout.
+​Left Column (The Navigation/Timeline): A fixed or sticky vertical line with dots. Each dot corresponds to a service (UX/UI, Mobile Dev, Front-End, Back-End, Cloud).
+​Right Column (The Content): A series of high-detail service cards that scroll vertically.
+​Section Content Details:
+​UX/UI Design: >    * Visual: Two overlapping cards. Top card shows "Micro Services" with "Wireframing" and "Design" buttons. Bottom card shows "Design System" with color palettes and typography.
+​Graphic: A large upward-pointing arrow icon to the right of the cards.
+​Mobile Development: >    * Visual: A horizontal slider showing multiple iPhone mockups with different app screens (Music, Profile, Feed).
+​Description: Focus on iOS, Android, and Cross-platform growth.
+​Front-End Development: >    * Visual: Stacked browser windows or website previews showing clean, modern landing pages.
+​Back-End Development: >    * Visual: A dashboard-style card on the left with buttons for "Database Management," "API Integration," and "Authentication." On the right, a circular node diagram representing system architecture.
+​Cloud Services: >    * Visual: A list of services (Cloud Consulting, Professional, Managed) on the left. On the right, a rotating gear icon inside a blue circular shield.
+​Animations & Scroll Logic (Crucial):
+​Scroll-Linked Timeline:
+​As the user scrolls through the right-side content, the vertical line on the left should "fill up" (progress bar effect).
+​The dot for the "Active" section must light up (e.g., change color to bright blue) while others remain gray/muted.
+​Entrance & Transitions:
+​Sticky Heading: As each section enters the viewport, its Title (e.g., "UX/UI Design") should slide in and become active in the timeline.
+​Parallax Cards: The images/mockups in the right column should have a subtle parallax effect or "fade-in-and-scale" as they come into view.
+​Back-End/Cloud Animation: >     * The node diagram and the gear icon should have a continuous slow rotation or "pulse" animation to signify active systems.
+​Technical Requirements: Use framer-motion's useScroll and useTransform hooks to bind the timeline progress to the scroll position. Ensure the right-side cards have enough vertical spacing (py-20 or more) so the transition between sections feels smooth.
+
+
+
+
+SECTION 3: Cross-Functional Team Expertise
+​Header Section:
+​Left: Bold, high-impact heading: "A Cross-Functional Team With Deep Digital Product Expertise".
+​Right: A concise paragraph explaining the company's collaborative approach to taking products to the next level.
+​Layout: The Interactive Expertise Grid
+​Structure: Create a 4x2 grid (8 blocks total) separated by thin, elegant divider lines (border-light).
+​Grid Items: Each block contains a Lucide-style icon (minimalist) and a bold title.
+​Discovery and Built Analysis (Telescope Icon)
+​Data Collection & Preparation (Search/Magnifying Glass Icon)
+​Model Selection & Development (3D Cube/Box Icon)
+​Training & Evaluation (Settings/Gear Icon)
+​Continuous Improvement (Checkmark/Square Icon)
+​Monitoring & Maintenance (Activity/Chart Icon)
+​Deployment & Integration (Cloud Upload Icon)
+​Launch & User Feedbacks (Rocket Icon)
+​Animations & Hover Effects (Key Feature):
+​Hover Effect (Individual Block): >     * When a user hovers over any grid block, the background should change slightly (e.g., a very light gray or a subtle blue tint).
+​The icon should animate (e.g., a slight bounce or scale-up).
+​The text color should shift to a primary brand color (e.g., bright blue).
+​Border Animation: Optionally, add a "border-trace" effect where a glowing line follows the perimeter of the block on hover.
+​Entrance: Use a staggered fade-in animation so the grid items appear sequentially as the user scrolls.
+​Technical Requirements: Ensure the grid is fully responsive—switch from 4 columns on desktop to 2 columns on tablet and 1 column on mobile. Use Framer Motion for the staggered entrance and hover transitions.
+
+
+
+
+SECTION 4: Final Booking CTA Banner
+​Container: A large, rounded rectangular box with a solid bright blue background (bg-blue-600).
+​Layout: Two-column split inside the blue container.
+​Left Side (The Hook):
+​Top Text: Small, bold orange text: "NOT IMPRESSED YET..?".
+​Main Heading: Bold white heading: "Book Your Meeting Now And Let's Talk In Person".
+​Primary Button: A white rounded button labeled "Hire Us" with blue text.
+​Right Side (The Visuals):
+​Calendar Element: A clean, modern Calendar UI component showing dates, with specific slots highlighted in blue.
+​Profile Image: A circular portrait of a professional person (e.g., a woman on a call) overlapping the calendar slightly to give it a 3D layered look.
+​Floating Icons: Small floating circular icons for Calendar and Phone around the main image.
+​Star Decoration: A subtle white "sparkle/star" icon in the top right corner of the blue box.
+​Animations & Interactions:
+​Button Hover: >     * The "Hire Us" button should have a "magnetic" pull effect or a subtle lift with a shadow increase on hover.
+​Floating Animation: >     * The circular profile image and the floating icons (Calendar/Phone) should have a gentle, slow bobbing animation (floating up and down) to make the section feel alive.
+​Entrance Effect: >     * Use a Scale-in animation for the entire blue container as the user reaches the bottom of the page.
+​The calendar and image should slide in from the right after the box appears (staggered effect).
+​Technical Requirements: Use Framer Motion for the floating icons and container entry. Ensure the layout stacks vertically on mobile devices, keeping the text above the visuals.

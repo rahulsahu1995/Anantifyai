@@ -1,0 +1,271 @@
+1. Header Component:
+​Background: Fixed position with a solid black background (bg-black).
+​Left Side: An "Infinite" logo icon next to the company name "Anantify AI" in a clean, modern font.
+​Right Side (Navigation): A menu containing the following links:
+​AI (Home Route)
+​Service (Service Route)
+​About (About Route)
+​Blog (Blog Route)
+​Get in Touch (Contact Route) — Style this as a prominent button.
+​Effects: Implement smooth hover effects (e.g., color change or subtle underline) for navigation links and a scale/glow effect for the "Get in Touch" button.
+
+
+
+
+
+​2. Footer Component:
+​Background: Dark theme consistent with the header.
+​Layout: Use a grid or flexbox layout to organize the following sections:
+​Column 1 (Brand): "Anantify AI" in bold font. Below it, the tagline: "Let's make something great together." Include clickable icons for Instagram and LinkedIn.
+​Column 2 (Company): Bold header "Company". Below it, list: About Us, Our Services, Contact Us, and Blogs (linked to respective routes).
+​Column 3 (Services): Bold header "Services". Below it, list: Generative AI, LLM Development, Chatbot Development, and Cloud Management.
+​Column 4 (Strategic Section): In the top right area, add the text: "Strategic Partnership to unlock greater business value." Below this text, create 3 distinct boxes showcasing partner logos/names: Google Cloud, AWS, and Terraform.
+​Bottom Section (Contact Info):
+​Address: "138/3, Govind Colony, Kila Road, Madhya Pradesh - 452001" (with a Location icon).
+​Email: "hello@anantifyai.com" (with a Mail icon).
+​Phone: "+91 8120271155" (with a Phone icon).
+​Technical Requirements: Use Lucide-react for icons, ensure full responsiveness for mobile devices, and use smooth transitions for all interactive elements.
+
+
+
+build this web page according to prompt and Whenever I navigate to a route, it should automatically scroll to the top with a smooth effect.
+
+
+
+Home Route page 
+
+SECTION 1: 
+Hero Section (The "Fast" Section)
+​Background: Use a dark background featuring a detailed starfield/space image that fills the section.
+​Content Alignment: Center-align all content horizontally.
+​Top Element:
+​Include a prominent Trophy Icon.
+​Next to the icon, place the text: "Your imagination, our AI tool." (Style this to be relatively small).
+​Main Headline: Below the trophy element, add a massive, bold (text-5xl or larger) headline: "We build AI tools at [Superfast] speed."
+​Animation (Crucial Requirement): The word [Superfast] must have a specific hover animation. When the user hovers over "[Superfast]", it must visually stretch forward or zoom in rapidly, simulating extreme speed moving toward the user, before smoothly returning to normal on hover-out.
+​Sub-headline: Below the main headline, include the following text blocks with clean typography:
+​"We specialize in crafting custom AI tools designed to address your unique business challenges, driving innovation and growth."
+​"Let us empower your business with intelligent solutions that make a real impact."
+​Call to Action: Below the sub-headlines, in the horizontal center, place the same "Get in Touch" button design used in the Header (from the previous prompt), ensuring consistent hover effects.
+
+
+
+
+​SECTION 2: 
+
+Transformation & Stats (The "Accordion" Section)
+​Background: Pure white background (bg-white).
+​Layout: Split the section into two main vertical columns (50/50).
+​Left Column (Visuals):
+​Create a stacked box layout.
+​Top Box: Features a high-quality Rocket Animation (e.g., Lottie JSON or an animated SVG).
+​Bottom Box: Positioned slightly overlapping or tightly connected to the bottom right of the top box. It contains a prominent "Checkmark/Right Icon", and below it, the text: "Our team is ready to work with you."
+​Right Column (Transformation & Accordion):
+​Main Title: Start with the bold title: "Transform your business with AI-driven solutions."
+​Accordions (Interactive Feature): Create three vertically stacked accordion items.
+​Behavior: Each item must have a plus (+) icon at the end of the title. Clicking a title/icon must show its detailed description with a smooth animation. Importantly, opening one item must automatically hide any other open item (Single Action Accordion).
+​Item 1 Title: Research And Strategy
+​Desc: Transform the way you approach innovation with deep market research and AI-powered insights. Our strategies are built to identify opportunities, optimize processes, and give your business a competitive edge.
+​Item 2 Title: Design And Development
+​Desc: Create stunning, user-centric digital experiences with our expert design and development team. We combine creativity with cutting-edge technology to build solutions that engage and convert.
+​Item 3 Title: Maintenance And Support
+​Desc: Keep your AI tools running smoothly with our comprehensive maintenance and support services. We provide 24/7 monitoring, updates, and optimization to ensure peak performance.
+​Bottom Section (Stats Grid & Scroll Animation):
+​Below the accordion, create a modern, clean table/grid layout with 3 columns.
+​Column 1:
+​"200+" (Large Bold Number)
+​"Projects Completed" (Bold Label)
+​"Delivering innovative, AI-driven solutions tailored to diverse industries" (Description)
+​Column 2:
+​"100+" (Large Bold Number)
+​"Satisfied Clients" (Bold Label)
+​"Partnering with businesses globally to achieve measurable growth and success" (Description)
+​Column 3:
+​"15+" (Large Bold Number)
+​"Years of Expertise" (Bold Label)
+​"A decade of experience in transforming businesses with cutting-edge technology" (Description)
+​Scroll Animation Effect:
+​To the immediate right of this entire stats grid, place a large Asterisk symbol (*).
+​This Asterisk must rotate continuously based on the user's scroll position (scroll-triggered rotation). 
+
+
+
+
+SECTION 3:
+
+ Services Showcase Grid
+​Header: Create a centered, high-impact heading: "Breathing New Life Into Ideas and Systems With Technology That Works Faster, Smarter, and Better."
+​Grid Layout: A responsive grid (2 columns on top, 3 columns below) featuring glassmorphism-style cards with subtle borders.
+​Card 1: Chatbot Development
+​Visual: A simulated chat interface showing a message from "You" and a response from "AI Assistant" (Scheduling a meeting).
+​Animation: The messages should appear with a "typing" effect or fade in one after another to simulate a live chat.
+​Text: Title "Chatbot Development" with a description about NLP-powered 24/7 support.
+​Card 2: AI Content Writing
+​Visual: A "Generating image..." placeholder box with a search bar below it and a "Generate" button.
+​Animation: A shimmering "loading" pulse effect on the image placeholder to show AI is "thinking."
+​Text: Title "AI Content Writing" with a description about high-quality, brand-aligned content.
+​Card 3: Workflow Automation
+​Visual: A grid of floating tool icons (like Figma, Slack, OpenAI, etc.).
+​Animation: Icons should gently float up and down (bobbing effect) at different speeds to represent a connected ecosystem.
+​Text: Title "Workflow Automation" focusing on efficiency and freeing up teams.
+​Card 4: LLM Development
+​Visual: A prompt box showing a question ("Where do Quokkas live?") and an AI-generated answer.
+​Animation: A blinking cursor effect in the "Write Your prompt..." input field.
+​Text: Title "LLM Development" regarding custom large language models and faster outcomes.
+​Card 5: AI Consulting
+​Visual: A line graph showing "Efficiency +153%" (upward trend) and "Cost -67%" (downward trend).
+​Animation: The graph line should "draw" itself from left to right when the card enters the viewport (scroll-triggered).
+​Text: Title "AI Consulting" regarding strategic guidance and innovation.
+
+
+
+​Call to Action (CTA) Banner
+​Container: A dark, wide box with a rounded-corner dashed/glowing border.
+​Content:
+​Left Side: A glowing 3D Lightbulb Icon.
+​Animation: The lightbulb should have a subtle "pulse" or "glow" animation that grows and shrinks slightly.
+​Center Text: "If You Have Any Idea We'll Help You" in white, followed by a gold/yellow subtext "LET'S CONNECT..!"
+​Button: A bright blue-to-cyan gradient button labeled "Hire AI Expert".
+​Animation: On hover, the button should have a "magnetic" pull effect and the border of the box should change color or start a "running light" animation along the dashed line.
+​Technical Note: Ensure all cards have a subtle scale-up effect (hover:scale-105) and a soft glow on hover. Use Framer Motion for the entrance animations (staggered fade-in).
+
+
+
+
+
+
+
+SECTION 4:
+
+ Engineering Services Grid ("Exploring New Horizons")
+​Header Section:
+​Left: Large heading: "Exploring New Horizons with Cutting-Edge Engineering".
+​Right: A short, friendly paragraph about starting from scratch or revamping products.
+​Grid Layout: Create a 4x2 Grid of cards with a deep navy/slate blue background (bg-slate-900 or similar).
+​Card Content: Each card must have a clean white icon, a bold title, and a short description.
+​Items: Mobile App Development, Software Development, MVP Development, Superfast POC, Web Development, Ideation and Design Strategy, IT Consulting.
+​Special Card: The last card in the grid should be "All Services" with a large "Up-Right Arrow" icon.
+​Animations: >     * Hover Effect: When a user hovers over a card, it should lift up slightly (translate-y-[-10px]) and the icon should glow or change color.
+​Entrance: The cards should appear one-by-one using a "staggered fade-in" animation as the user scrolls down.
+
+
+​ Collaborative Expertise ("Let's Build Together")
+​Background: Clean white or very light gray background.
+​Layout: Two-column split.
+​Left Column (Branding & Visual):
+​Heading: "Let's Build Together" in a bold, professional font.
+​Subtext: A paragraph explaining the company's philosophy of blending creativity with technology.
+​Visual Element: A group of 4 geometric shapes (Circles, Triangles, Squares) in different shades of blue and gray.
+​Animation: These shapes should have a slow "floating" or "parallax" movement. As the user moves their mouse, the shapes should shift slightly in the opposite direction to create a sense of depth.
+​Right Column (Capabilities List):
+​List Items: A vertical list featuring:
+​Artificial Intelligence (Robot Icon)
+​Internet of Things (IoT) (Sensor/Touch Icon)
+​Product Design (Pencil/3D Box Icon)
+​Cloud & DevOps (Cloud/Settings Icon)
+​Product Discovery (Box/Idea Icon)
+​Styling: Each item should have a divider line between them.
+​Animations: >     * On hover, the icon should animate (e.g., the gear should rotate, or the cloud should pulse).
+​The text should slightly change color (to a primary blue) on hover.
+​Technical Requirements: Use Lucide-react for all icons and Framer Motion for the geometric shape animations and staggered list entry. Ensure the design is fully responsive for mobile and tablet views.
+
+
+
+
+SECTION 5: 
+Testimonials & Client Showcase ("Real Experiences")
+​Header: Centered at the top, heading text: "Real Experiences. Real Results" in a clean white font.
+​Layout: Divide the section into a 40/60 split (Left: Testimonial, Right: Client Grid).
+​Left Side (The Testimonial):
+​Testimonial Text: A large, readable paragraph containing the client's quote: "Migrating to the cloud seemed daunting, but Anantify made it seamless..."
+​Author Info: Below the quote, show a small profile avatar/initials circle (e.g., "T" for Tobias). Next to it, include the name "Tobias Hintelmann" and their title "CTO, Captain".
+​Animation: Implement a fade-in-and-slide animation so that when a user clicks a different logo on the right, the testimonial text updates smoothly with a transition.
+​Right Side (The Client Card Grid):
+​Grid Structure: Create a staggered, vertical-oriented grid of 6 cards.
+​Card Styling: Cards should have a light blue/slate background with rounded corners. Each card features a unique company logo (e.g., DGKI, Scrapper, KidCash, ShotShot, etc.).
+​Visual Highlight: One card must have a "Selected" state (e.g., a white border or a subtle glow) to indicate which client's testimonial is currently being displayed on the left.
+​Animations & Interactions:
+​Hover Effect: When hovering over a card, it should scale up slightly (scale-105) and the background should brighten.
+​On Click: Clicking a card should trigger a state change that updates the Testimonial text on the left side to match that specific client.
+​Floating Animation: Apply a subtle continuous floating/bobbing effect to the entire grid so the cards feel like they are "suspended" in space.
+​Technical Requirements: Use Framer Motion for the testimonial transitions (AnimatePresence) and the staggered layout entry. Ensure the grid remains responsive (switching to a 2-column grid on mobile devices).
+ 
+
+
+
+SECTION 6:
+ Engagement Models ("Hire Us")
+​Header Section:
+​Badge: At the top center, add a small rounded pill/badge with the text "Hire Us".
+​Main Heading: Below the badge, a large, centered heading: "Words from the top leading IT Executives around the globe".
+​Sub-headline: A centered paragraph explaining the phase-by-phase approach and tailored solutions.
+​Layout: Two large, side-by-side cards with rounded corners and subtle shadows.
+​Card 1: Hire a Team
+​Title: Bold header "Hire a Team".
+​Description: "Build a dedicated team for large-scale projects and ongoing support with comprehensive skills."
+​Bullet Points: Use custom arrows (→) for:
+​Complete Project Solutions
+​Seamless Collaboration
+​Visual: Include an image of a professional team of four people standing together at the bottom right of the card.
+​Icon: A blue circular button with an "Up-Right Arrow" icon in the top right corner.
+​Card 2: Hire an Individual
+​Title: Bold header "Hire an Individual".
+​Description: "Get specialized expertise for focused tasks or short-term projects to meet your business needs."
+​Bullet Points: Use custom arrows (→) for:
+​Tailored Expertise
+​Quick, Focused Results
+​Visual: Include an image of a single professional sitting on a chair at the bottom right.
+​Icon: A small, subtle "Up-Right Arrow" icon in the top right corner.
+​Animations & Interactions:
+​Hover State: >     * When hovering over a card, the background should have a subtle color shift or a soft border glow.
+​The "Up-Right Arrow" icon should scale up or rotate slightly (45 degrees) to indicate it's clickable.
+​Image Animation: The people in the images should have a very subtle "slide-up" or "fade-in" animation when the card first appears on the screen.
+​Scroll Effect: Use a "staggered entrance" so the "Hire a Team" card appears slightly before the "Hire an Individual" card.
+​Technical Requirements: Ensure the layout is responsive, switching to a single-column stack on mobile devices. Use Lucide-react for the arrow icons and Framer Motion for the hover/entry transitions.
+
+
+
+
+SECTION 7: Product Portfolio Showcase ("Astonishing Well")
+​Background: Set a deep slate or navy blue background (bg-slate-900 or similar).
+​Header:
+​Title: Large heading on the left side: "Our Product That Are Performing Astonishing Well" in white font.
+​Call to Action (CTA): A prominent blue, rounded button labeled "Hire Us" in the top right corner. Ensure smooth hover scale-up effect.
+​Animations & Interactions (Infinite Scrolling UI Grid):
+​Create a 2-row infinite scrolling marquee grid featuring UI design cards. Each card must have rounded corners and contain a unique product UI screenshot or design (e.g., Dashboard, Landing Page, Social App UI, "Dynamic Intelligence" screen, etc.).
+​Row 1 Animation (Top Row):
+​Movement: The entire top row of UI cards must move continuously from RIGHT to LEFT.
+​Technical: Implement an Infinite Loop Marquee effect so the animation never stops and appears seamless. Use CSS animations or Framer Motion's infinite repeat (transition: { repeat: Infinity, duration: 40 }).
+​Row 2 Animation (Bottom Row):
+​Movement: The entire bottom row of UI cards must move continuously from LEFT to RIGHT (opposite direction to the top row).
+​Technical: Ensure the speed and duration are matched with the top row for visual balance, creating a powerful directional contrast.
+​Card Animations:
+​Hover State: When a user hovers over any single UI card, the infinite scrolling must temporarily slow down or pause (use CSS animation-play-state: paused on hover) to allow for easier inspection.
+​Hover Zoom: The card itself should have a slight hover:scale-105 effect with a soft outer glow.
+​Technical Note: Use Lucide-react for any icons and Framer Motion for precise control over the infinite repeat animations. Ensure full responsiveness by reducing the card size and scroll speed on smaller screens (mobile/tablet).
+
+
+
+
+SECTION 8: Custom LLM Solutions Slider
+​Background: Clean white or very light gray background.
+​Header Section:
+​Sub-heading: Small gray text: "Custom LLM Solution".
+​Main Heading: Bold, large heading: "LLM Built For Your Unique Data And Tasks".
+​Navigation Controls (Top Right): Include two circular buttons:
+​Back Button (<): To slide the content to the previous item.
+​Next Button (>): To slide the content to the next item.
+​Styling: Subtle borders, gray icons, and a dark background fill on hover.
+​Slider Content (The Cards):
+​Create a horizontal row of vertically-oriented cards with rounded corners. Each card represents a specific technology:
+​RAG (Retrieval-Augmented Generation): Featuring technical icons and a "Synthesis" description.
+​PROMPT Engineering: Featuring a futuristic HUD/Circle graphic and "Communication with AI" text.
+​FLUX Model: Featuring a blue "energy/fluid" abstract visual.
+​LangChain: Featuring a composable framework description and logo integrations (OpenAI, Docker, etc.).
+​Animations & Navigation Logic:
+​Carousel Functionality: >     * When the Next button is clicked, the cards should slide smoothly to the left to reveal the next set of technologies.
+​When the Back button is clicked, the cards should slide back to the right.
+​Smooth Transitions: Use Framer Motion (AnimatePresence or x axis transitions) to ensure the sliding motion feels premium and fluid, not jumpy.
+​Infinite Loop (Optional): If the user reaches the last card, clicking "Next" should wrap around to the first card.
+​Hover Effect: Individual cards should have a subtle lift effect (-translate-y-2) and an increased shadow when hovered.
+​Technical Requirements: Use Lucide-react for the Chevron (arrow) icons. Ensure the slider is "touch-friendly" for mobile users (swipe to scroll)
