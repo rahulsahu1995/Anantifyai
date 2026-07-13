@@ -137,7 +137,7 @@ router.post("/contact", async (req, res) => {
         </div>`,
     });
     
-    res.json({ ok: true });
+    res.json({ ok: true ,"message": "Email sent successfully" });
   } catch (err: any) {
     console.error("contact email error:", err?.message || err);
     res.status(500).json({ error: err?.message || "Failed to send email" });
@@ -186,7 +186,7 @@ router.post("/appointment", async (req, res) => {
         </div>`,
     });
     
-    res.json({ ok: true });
+    res.json({ ok: true,"message": "Email sent successfully" });
   } catch (err: any) {
     console.error("appointment email error:", err?.message || err);
     res.status(500).json({ error: err?.message || "Failed to send email" });

@@ -125,7 +125,7 @@ export default function Contact() {
     setFormError("");
     try {
       const hasAppointment = apptConfirmed && selectedDate && selectedTime;
-      // const endpoint = hasAppointment ? "/appointment" : "/contact";
+      const endpoint = hasAppointment ? "/appointment" : "/contact";
       const body: Record<string, string> = {
         name: formName.trim(),
         phone: formPhone.trim(),
@@ -142,12 +142,13 @@ export default function Contact() {
         });
         body.time = selectedTime!;
       }
-      const res = await fetch(`${API_BASE}/contact`, {
+      const res = await fetch(`${API_BASE}${endpoint}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
       });
       const data = await res.json();
+      console.log("data", data);
       if (!res.ok) throw new Error(data.error ?? "Failed");
       // Show toast then reset to idle so button is usable again
       setShowToast(true);
