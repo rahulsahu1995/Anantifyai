@@ -649,7 +649,7 @@ export default function Contact() {
                     value={formIdea}
                     onChange={(e) => setFormIdea(e.target.value)}
                     placeholder="Spill your idea here, we are happy to discuss"
-                    className="bg-slate-50 border-slate-200 focus-visible:ring-blue-500 min-h-[140px] resize-none text-sm rounded-xl"
+                    className="bg-slate-50 border-slate-200 text-black focus-visible:ring-blue-500 min-h-[140px] resize-none text-sm rounded-xl"
                   />
                 </div>
 
